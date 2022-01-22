@@ -1,0 +1,41 @@
+
+body {
+    background: center/100% url(img/bg6.png);
+}
+
+.game {
+    width: 1000px;
+    height:600px;
+    position: relative;
+    top:50px;
+    border: 1px solid black;
+    margin:auto;
+}
+
+canvas {
+    border: 1px solid black;
+    /*margin:auto;*/
+    /*position: absolute;*/
+}
+
+#cat {
+    width: 120px;
+    height:95px;
+    background-image: black;
+
+    position: relative;
+    top:150px;
+}
+#cloud {
+    width: 1110px;
+    position: relative;
+    left:-80px;
+    top:-5px;
+ }
+ 
+ .restart {
+     width: 144px;
+     position: relative;
+     left:400px;
+     top:-400px;
+ }
