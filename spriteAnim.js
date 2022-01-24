@@ -66,22 +66,3 @@ export class Sprite {
         window.requestAnimationFrame(loop);
     }
 }
-
-/*let canvas = document.getElementById('canvas');
-canvas.width = 1000;
-canvas.height = 600;
-
-const spriteImage = new Image();
-spriteImage.src = 'img/heart2.png';
-
-let sprite = new Sprite({
-  ctx: canvas.getContext('2d'),
-  image: spriteImage,
-  width: 16,
-  height: 16,
-  scale: 4,
-  x: 500,
-  y: 150,
-  numberOfFrames: 5,
-  ticksPerFrame: 10,
-})*/
