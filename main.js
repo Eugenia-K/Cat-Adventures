@@ -106,7 +106,7 @@ function playSound() {
 
         soundInterval = setInterval(() => {
             backSound.play();
-        }, 133000);
+        }, 132000);
 
     } else {
         clearInterval(soundInterval);
