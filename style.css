@@ -1,0 +1,40 @@
+body {
+    background: center/100% url(img/bg6.png);
+}
+
+.game {
+    width: 1000px;
+    height: 600px;
+    position: relative;
+    top: 50px;
+    margin: auto;
+}
+
+#cat {
+    width: 120px;
+    height: 95px;
+    background-image: black;
+    position: relative;
+    top: 150px;
+}
+
+#cloud {
+    width: 1110px;
+    position: relative;
+    margin: auto;
+    top: -5px;
+}
+
+.restart {
+    width: 144px;
+    position: relative;
+    left: 450px;
+    top: -500px;
+}
+
+.sound {
+    width: 100px;
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
